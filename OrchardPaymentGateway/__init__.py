@@ -1,0 +1,1 @@
+from OrchardPaymentGateway.orchard import say_message
