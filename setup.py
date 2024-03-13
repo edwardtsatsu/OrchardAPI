@@ -9,11 +9,11 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 VERSION = '0.0.1'
 DESCRIPTION = 'A payment gateway'
-LONG_DESCRIPTION = 'A package that allows to build simple streams of video, audio and camera data.'
+LONG_DESCRIPTION = 'A Package that helps you to connect to appsNmobile paymentgateway'
 
 # Setting up
 setup(
-    name="orchard-payment-gateway",
+    name="orchard_payment_gateway",
     version=VERSION,
     author="akorlie edward tsatsu (Dev Tsatsu)",
     author_email="<mail@edwardakorlie73@gmail.com>",
@@ -21,8 +21,8 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['request', 'dotenv'],
-    keywords=['python', 'payment', 'gateway', 'finance', 'lib', 'orchard'],
+    # install_requires=['request', 'dotenv'],
+    keywords=['python', 'payment', 'gateway', 'finance', 'lib', 'orchard', 'api'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
